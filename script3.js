@@ -1,7 +1,8 @@
 const r = document.getElementById("response")
 
 const formSub = document.getElementById('sub')
-
+//compares the users input values to check if there password is correct
+//throws an error if password is incorrect
 formSub.addEventListener("click",function(){
     let formName = document.getElementById('name').value
     let formPassword =document.getElementById('psw').value

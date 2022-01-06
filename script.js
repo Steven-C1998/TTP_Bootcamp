@@ -4,7 +4,7 @@ const btn1 = document.querySelector(".btn1")
 const btn2 = document.querySelector(".btn2")
 
 
-
+//changes the paragraph elements text when the button is clicked
 btn1.addEventListener("click",function(){
     p1.innerHTML = "I'm right"
 })

@@ -1,7 +1,8 @@
 const answer = document.getElementById("answer")
 
 const formSub = document.getElementById('sub')
-
+//adds the click action to the submit button 
+//which runs the function to calculate the volume
 formSub.addEventListener("click",function(){
     let radius = document.getElementById('value').value
     let volume
